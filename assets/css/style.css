@@ -1,0 +1,31 @@
+    /*class do body*/
+.app {
+    background: #f1f1f1;/*cor de fundo branco*/
+    display: grid;/*definir o display em grid*/  
+    font-family: Arial, Helvetica, sans-serif;/*tipo da fonte*/
+    grid-template-areas:/*Dividir as aréas do grid*/
+    "cabecalho"
+    "conteudo"
+    "rodape";
+    grid-template-columns:auto;/*definir as colunas com tamanho auto da pagina*/
+    grid-template-rows: 50px 100vh auto;/*definir os tamanhos do rows da pagina*/
+}
+    /*cabeçalho da pagina*/
+.cabecalho {
+    display: flex;/*definer o display como flexbox*/
+    align-items: center;/*alinhar os itens no centro*/
+    grid-area: cabecalho;/*definir que essa area e do cabecalho*/
+    padding:  0 20px;/*espaçamento*/
+}
+    /*conteudo da pagina*/
+.conteudo {
+    grid-area:conteudo;/*definir que essa area e o conteudo*/
+    padding: 0 2rem;/*espaçamento*/
+}
+    /*rodape da pagina*/
+.rodape {
+    background:#fdfdfd;/*cor de fundo*/
+    color:#333333;/*cor do da letra do rodape*/
+    text-align: center;/*alianhar o texto no centro*/
+    grid-area: rodape;/*definir que essa area do rodape*/
+}
