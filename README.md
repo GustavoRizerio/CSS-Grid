@@ -7,7 +7,7 @@ curso de css grid da Alura.
 
 <div align="center">
 
-The **index.html** is a project done with HTML5 and CSS3(css grid)
+The **index.html** is a project made with HTML5 and CSS3(css grid)
 </div> 
 
 ## :rocket: Technology
